@@ -1,0 +1,58 @@
+/* Header */
+form.header {
+  align-items: center;
+  background-color: #282c34;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding: 1rem;
+}
+
+.header input {
+  margin-bottom: 1rem;
+}
+
+.header input[type='text'] {
+  width: 20rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.header input[type='submit'] {
+  width: 10rem;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.header input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #1e90ff;
+  color: white;
+}
+
+/* Body */
+div.user {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user p {
+  font-size: 1.2rem;
+}
+
+.user h1 {
+  font-size: 2rem;
+}
