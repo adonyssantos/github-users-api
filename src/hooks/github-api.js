@@ -7,6 +7,8 @@ export const useGithubApi = username => {
 
   const fetchUser = async () => {
     setLoading(true);
+    setError(null);
+
     try {
       const response = await fetch(`https://api.github.com/users/${username}`);
       const data = await response.json();
